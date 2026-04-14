@@ -1,5 +1,10 @@
 project:
   type: website
+  output-dir: docs
+  render: 
+    - index.qmd
+    - about.qmd
+    - finalproject.qmd
 
 website:
   title: "Home"
